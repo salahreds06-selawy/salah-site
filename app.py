@@ -1,10 +1,10 @@
-from flask import Flask
 
-app = Flask(__name__)
+# Online Python - IDE, Editor, Compiler, Interpreter
 
-@app.route('/')
-def home():
-    return "<h1> موقعي يعمل على GitHub! </h1>"
+def sum(a, b):
+    return (a + b)
 
-if name == '__main__':
-    app.run()
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+
+print(f'Sum of {a} and {b} is {sum(a, b)}')
